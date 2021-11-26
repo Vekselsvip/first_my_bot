@@ -81,7 +81,7 @@ def get_courses_info(message):
     else:
         bot.send_message(message.chat.id, "i don't understand you")
 
-
+x
 if __name__ == '__main__':
     bot.polling(non_stop=True, interval=0)
 
